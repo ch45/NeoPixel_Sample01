@@ -4,4 +4,4 @@
 ## New Features!
 
  - Conditional compilation of one render function from many
- - Comet tail - colourful at the moment a WIP
+ - Comet tail
