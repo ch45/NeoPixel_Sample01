@@ -130,4 +130,3 @@ void render_colour_wipe() {
   delay(1000 / FPS);
 }
 #endif
-

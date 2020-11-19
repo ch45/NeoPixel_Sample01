@@ -5,3 +5,4 @@
 
  - Conditional compilation of one render function from many
  - Comet tail
+ - Add value from audio input (great with more LEDs)
