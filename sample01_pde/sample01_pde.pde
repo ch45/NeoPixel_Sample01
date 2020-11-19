@@ -19,7 +19,7 @@ void setup() {
 void draw() {
   background(255);
   ellipse(mouseX, mouseY, 20, 20);
-  int val = (int)map(mouseX, 0, width, 0, LED_COUNT);
+  int val = (int)map(mouseX, 0, width, 0, LED_COUNT + 1);
   myPort.write(val);
   // println(val);
   delay(1000 / FPS);

@@ -29,7 +29,7 @@ void loop() {
   while (Serial.available()) {
     val = Serial.read();
     int i = 0;
-    for ( ; i < LED_COUNT && i <= val; i++) {
+    for ( ; i < LED_COUNT && i < val; i++) {
       strip.setPixelColor(i, 100, 100, 100);
     }
     for ( ; i < LED_COUNT; i++) {
