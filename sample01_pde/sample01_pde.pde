@@ -46,7 +46,7 @@ int getValueFromMouse() {
 
 int value = 0;
 int getValueFromAudio() {
-  float rmsLevel = (in.left.level() + in.left.level()) / 2.0;
+  float rmsLevel = (in.left.level() + in.right.level()) / 2.0;
   value = (int)map(rmsLevel, 0.0, 1.0, 0.0, LED_COUNT);
   return value;
 }
